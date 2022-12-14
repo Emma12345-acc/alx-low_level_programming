@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * isabella - Check the alphabetic character
+ * _isabella - Check the alphabetic character
  * OC: if the character is checked
- * Return: 1for alphabetic character or 0 for everything else
+ * Return: 1 for alphabetic character or 0 for everything else
  *
  */
 int _isabella(int c)
