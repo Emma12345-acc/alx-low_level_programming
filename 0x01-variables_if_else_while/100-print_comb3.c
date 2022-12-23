@@ -24,7 +24,6 @@ int main(void)
 			if (i <= 7)
 				putchar(',');
 			putchar(' ');
-
 		}
 	}
 	putchar('\n');
