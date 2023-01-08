@@ -4,16 +4,14 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+void print_alphabet(void)
 {
-	char *sh = "_putchar";
+	char c;
 
-	while (*sh)
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		_putchar(*sh);
-		sh++;
+		_putchar(c);
 	}
 	_putchar('\n');
-
-	return (0);
 }
+
