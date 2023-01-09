@@ -3,7 +3,7 @@
  * main - Entry point
  * @argc: The number of arguments passed to the main program
  * @argv: The number of index of arguments passed in the terminal
- * Return: Always 0
+ * Return: Success 0
  */
 int main(int argc, char *argv[])
 {
