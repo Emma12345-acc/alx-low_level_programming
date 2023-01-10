@@ -7,13 +7,8 @@
  */
 int main(int argc, char *argv[])
 {
-        int i = 0;
-
-	while (i < argc)
-	{
-		printf("%s\n", argv[i]);
-		printf("%d\n", i);
-	}
-        return (0);
+(void) argv; /* Ignore argv*/
+	printf("%d\n", argc - 1);
+	return (0);
 }
 
